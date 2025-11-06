@@ -1,0 +1,129 @@
+
+a{
+    direction: none;
+}
+header{
+   
+    margin: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 5px;
+
+}
+.navbar a{
+
+    margin: 24px;
+    padding: 5px;
+    justify-content: left;
+    color: aliceblue;
+    font-size: 33px;
+    text-decoration: none;
+    font-weight: 200;
+    height: 40px;
+    width: 100px;
+    justify-content: space-between;
+  
+}
+.navbar a:hover{
+color: rgb(223, 59, 59);
+border: solid rgb(192, 33, 33);
+border-radius: 10px;
+    
+}
+.body{
+    background-color: rgb(87, 5, 5);
+}
+.logo-img{
+    height:180px;
+    width: 180px;
+
+}
+.search-bar{
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    text-align: left;
+    color: rgb(180, 26, 20);
+}
+.para-class{
+    font-size: 25px;
+    color: rgb(212, 2, 2);
+}
+.search{
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+.search-word{
+    font-size: 25px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin: 50px;
+}
+.main .main-descrbtion
+{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main .main-descrbtion .website-name{
+    display: flex;
+    align-items: start;
+    color: rgb(197, 9, 9); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    background-color: rgb(142, 2, 2);
+    border: solid  rgb(227, 9, 9);
+    border-radius: 10px;
+    width: 200px;
+    height:50px ;
+    font-size: 35px;
+    color: rgb(198, 7, 7);
+}
+.btn:hover{
+    border: solid rgb(241, 10, 10);
+    color: rgb(242, 5, 5);
+}
+.img{
+    height: 400px;
+    width: 350px;
+}
+#homeBtn {
+  display: inline-block;
+  background-color: #a50404;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  transition: all 0.2s ease;
+  align-items: start;
+}
+#homeBtn:hover {
+  background-color: #ff6666;
+  transform: scale(1.05);
+}
